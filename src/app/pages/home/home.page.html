@@ -11,6 +11,22 @@
     </ion-toolbar>
   </ion-header>
 
+  <ion-button (click)="initializeYoutubePlayerPluginWeb()"
+    >initializeYoutubePlayerPluginWeb</ion-button
+  >
+
+  <ion-button (click)="destroyYoutubePlayerPluginWeb()"
+    >destroyYoutubePlayerPluginWeb</ion-button
+  >
+
+  <ion-button (click)="initializeYoutubePlayerPluginNative()"
+    >initializeYoutubePlayerPluginNative</ion-button
+  >
+  <ion-item>
+    <!-- The <iframe> (and video player) will replace this <div> tag. -->
+    <div id="youtube-player"></div>
+  </ion-item>
+
   <div id="container">
     <h1>6!</h1>
     <strong>Ready to create an app?</strong>
