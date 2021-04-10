@@ -20,3 +20,10 @@
 - ng build && npx cap copy ios && npx cap run ios --target 150812F7-D1D7-4E9D-A5A0-F9E37CDA4BB4
   OR
 - ionic cap run ios / ionic cap run ios --livereload --external
+
+### Adding the iOS Platform
+
+- npm install @capacitor/android@next
+- npx cap add android
+- npx cap open android
+- npx cap run android
