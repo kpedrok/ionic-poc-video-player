@@ -25,5 +25,4 @@
 
 - npm install @capacitor/android@next
 - npx cap add android
-- npx cap open android
-- npx cap run android
+- ionic cap run android
