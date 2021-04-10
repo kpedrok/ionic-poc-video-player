@@ -32,6 +32,11 @@
 ### Capacitor Video Player Plugin (2021-04)
 
 - https://github.com/jepiqueau/capacitor-video-player
+- https://www.ngdevelop.tech/ionic-capacitor-video-player-mobile-and-web/
+
+npm install capacitor-video-player
+npx cap sync
+npm install @capacitor/device
 
 ### Capacitor Youtube Player (2021-03)
 
