@@ -1,5 +1,7 @@
 {
   "name": "ionic-video-player",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }
