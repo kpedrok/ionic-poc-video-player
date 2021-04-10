@@ -12,7 +12,11 @@
 
 - ionic build
 
-### Add iOS
+### Adding the iOS Platform
 
-- npm i @capacitor/ios
-- ionic capacitor add ios
+- npm install @capacitor/ios@next
+- npx cap add ios
+- npx cap open ios
+- ng build && npx cap copy ios && npx cap run ios --target 150812F7-D1D7-4E9D-A5A0-F9E37CDA4BB4
+  OR
+- ionic cap run ios / ionic cap run ios --livereload --external
